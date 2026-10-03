@@ -1,0 +1,87 @@
+body {
+    font-family: Inter, Arial, sans-serif;
+    background: #F6F7F5;
+    margin: 0;
+    padding: 0;
+    color: #263238;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 0.5rem;
+}
+
+.intro {
+    font-size: 16px;
+    color: #596568;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.card {
+    background: #FFFFFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.count {
+    font-weight: 600;
+    color: #3A8F5C;
+}
+
+.button {
+    display: inline-block;
+    background: #397D7A;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+.back {
+    display: inline-block;
+    text-decoration: none;
+    color: #397D7A;
+    font-size: 16px;
+}
+
+.messages .msg {
+    background: #FFFFFF;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+form {
+    margin: 1rem 0;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #D8DEDC;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto 1rem auto;
+}
